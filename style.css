@@ -1,0 +1,19 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(24, 143, 255);
+    font-family: 'Courier New', Courier, monospace;
+
+    /*background*/
+
+    background: url('/img/background.jpg');
+    background-size: cover;
+}
+
+.lista-de-contatos li a{
+    text-decoration: none;
+}
